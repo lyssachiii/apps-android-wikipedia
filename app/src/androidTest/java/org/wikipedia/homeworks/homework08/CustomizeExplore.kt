@@ -23,9 +23,4 @@ class CustomizeItem(matcher: Matcher<View>) : KViewPagerItem<CustomizeItem>(matc
     val gotItButton = KButton(matcher){
         withId(R.id.view_announcement_action_negative)
     }
-
-
-
-
-
 }
